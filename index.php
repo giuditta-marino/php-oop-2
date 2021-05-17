@@ -26,7 +26,7 @@
   try {
     $customer2 = new Customer('22222', 4444, 'Marino', '13/03/2000');
   } catch (Exception $e) {
-    echo 'Devi inserire una stringa per il nome';
+    echo 'Devi inserire una stringa per il nome <br>';
     echo 'Errore: ' . $e->getMessage();
   }
 
